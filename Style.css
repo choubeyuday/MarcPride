@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.centr-detl {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-left: 576px;
+}
+
+.header-2,
+.menu {
+  background: #eaeaea;
+}
+
+.header-2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+span.h-name {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+span.call {
+  margin: 10px;
+}
+
+.menu-container {
+  padding: 18px;
+}
+
+.menu-container ul {
+  display: flex;
+}
+
+.menu-container ul li {
+  margin: auto;
+  list-style-type: none;
+}
+
+.menu-container ul li a {
+  text-decoration: none;
+  color: darkslategrey;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.line-container {
+  padding: 10px;
+  text-align: center;
+}
+
+p.h-line {
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  margin: 0;
+}
+
+.line {
+  background: black;
+}
+
+.page-1-container {
+  padding: 20px;
+}
+
+.page-1 {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button.btn {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+p.btn-d-text {
+  margin: 12px;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #655f5f;
+}
+
+.recent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+h2 span {
+  font-size: 40px;
+}
+
+.img-container {
+  display: flex;
+  margin: 10px;
+}
+
+.img-cart {
+  margin: 10px;
+}
+
+.img-cart img {
+  width: 201px;
+}
+.img-cart img:hover {
+  background-color: black;
+}
+
+.luxury {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.luxury-furniture {
+}
+
+.luxury-furniture img {
+  width: 100%;
+}
+
+.luxury-furniture h1 {
+  font-family: initial;
+  font-size: 44px;
+}
+
+.visit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-dtl {
+  text-align: center;
+  margin: 29px;
+}
+
+.text-dtl p {
+}
+
+.text-dtl p h1 {
+}
+
+p h1 {
+}
+
+h1 {
+  font-size: 47px;
+  font-family: none;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.left-img {
+}
+
+.left-img img {
+  width: 387px;
+}
+
+.right-intro {
+  width: 588px;
+}
+
+.detl {
+  padding: 10px;
+}
+
+span.intro-h {
+  font-size: 33px;
+  font-family: emoji;
+}
+
+p.sh-detl {
+  border-left: 3px solid;
+  margin: 15px 0;
+  font-size: 21px;
+  text-align: justify;
+}
+
+p.sh-detl span {
+  display: flex;
+  width: 500px;
+  margin: 0 12px;
+  text-align: justify;
+}
+
+p.full-detl {
+  font-size: 17.5px;
+  text-align: justify;
+  color: darkgrey;
+}
+
+.intro {
+  margin: 30px 0;
+}
+
+.img-cart-1 {
+  width: 300px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+
+.img-cart-1:hover {
+  transform: scale(0.8);
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.img-cart-1 img {
+  width: 280px;
+}
+
+.img-cart-1 p {
+  padding: 6px;
+  color: grey;
+}
+
+.icon {
+  text-align: center;
+  margin: -10px;
+}
+
+.icon span {
+  margin: 7px;
+}
+
+i.fa-solid.fa-heart {
+  margin: 3px;
+}
+
+i.fa-solid.fa-comment {
+  margin: 4px;
+}
+
+.insts {
+  padding: 7px;
+  text-align: center;
+  margin: 12px;
+}
+
+button.insta-btn {
+  text-align: center;
+  padding: 5px;
+  width: 223px;
+  background: #2793ec;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button.insta-btn span {
+  margin: 5px;
+}
+
+.footer-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.customer {
+  margin: 0 21px;
+  width: 300px;
+}
+
+.customer span {
+  font-size: 20px;
+  color: white;
+  margin: 0 30px;
+}
+
+li {
+  list-style-type: none;
+  margin: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.about {
+  width: 238px;
+}
+
+.about span {
+  font-size: 20px;
+  margin: 0 31px;
+  color: white;
+}
+
+.visit-showroom {
+  width: 300px;
+  margin: 0 10px;
+}
+
+.address {
+}
+
+.address span {
+  width: 200px;
+  display: flex;
+  margin: 11px 0;
+  color: white;
+}
+
+.visit-showroom span {
+  font-size: 17px;
+  color: white;
+}
+
+.input {
+}
+
+.input span {
+  font-size: 20px;
+  color: white;
+}
+
+.sign {
+  padding: 15px;
+}
+
+input#eamil {
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 13px;
+  background: transparent;
+}
+
+.input span {
+  color: white;
+}
+
+.social {
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(0 0 0 / 92%);
+}
+
+hr {
+  color: white;
+  opacity: 0.8;
+}
+
+span.i {
+  margin: 10px;
+}
